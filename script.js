@@ -53,7 +53,5 @@ fetch('API_ENDPOINT_URL', {
     console.error('API 호출 에러:', error);
 });
 
-
-// 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
 // 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
 
