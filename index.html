@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해커톤</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Layout"></div>
+    <div class="Menu" id="menuContent">
+        <!-- 여기에 메뉴에 들어갈 내용을 표시합니다 -->
+    </div>
+    <a class="Profile"></a>
+    <div class="Profile_Image">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50" fill="none">
+            <circle cx="25" cy="25" r="25" fill="#D9D9D9" />
+        </svg>
+    </div>
+    <div class="Chating_Box" id="chatContainer">
+        <!-- 채팅이 보여질 공간 -->
+    </div>
+    <input type="text" id="userInput" placeholder="메시지를 입력하세요...">
+    <button onclick="sendMessage()">전송</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
