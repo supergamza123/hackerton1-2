@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-const endpointURL = 'YOUR_ENDPOINT_URL'; // 여기에 엔드포인트 URL을 넣으세요
+const endpointURL = 'https://api.openai.com/v1/engines/davinci/completions'; // 여기에 엔드포인트 URL을 넣으세요
 const apiKey = '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'; // 여기에 API 키를 넣으세요
 
 function callGPT3API(inputText) {
