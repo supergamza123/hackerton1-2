@@ -71,7 +71,11 @@ function callGPT3API(inputText) {
 function sendMessage() {
     const messageInput = document.getElementById('userInput');
     const userMessage = messageInput.value.trim();
-    
+    const gptMessageElement = document.createElement('div');
+            gptMessageElement.className = 'message gpt-message';
+            gptMessageElement.textContent = gptResponse;
+            chatContainer.appendChild(gptMessageElement);
+
     if (userMessage !== '') {
         // 사용자 메시지 출력
         console.log('사용자 메시지:', userMessage);
@@ -89,3 +93,6 @@ document.getElementById('userInput').addEventListener('keypress', function (e) {
         sendMessage();
     }
 });
+
+
+
