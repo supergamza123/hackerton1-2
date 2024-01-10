@@ -36,7 +36,24 @@ function sendMessage() {
     });
 });
 
+fetch('API_ENDPOINT_URL', {
+    method: 'GET', // GET, POST, PUT, DELETE 등 HTTP 메소드 선택
+    headers: {
+        'Authorization': 'Bearer 1nXLCT3BlbkFJf5J0rZ5fTbSjvlBPCREj',
+        'Content-Type': 'application/json'
+        // 기타 필요한 헤더 설정
+    }
+})
+.then(response => response.json())
+.then(data => {
+    // API 응답 데이터를 이용한 작업 수행
+})
+.catch(error => {
+    // API 호출이 실패한 경우 처리
+    console.error('API 호출 에러:', error);
+});
+
 
 // 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
-
+// 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
 
