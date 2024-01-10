@@ -1,4 +1,4 @@
-// // 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
+// // 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
 //https://api.openai.com/v1/engines/davinci/completions
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('menuContent').textContent = initialMessage;
 
     const endpointURL = 'https://api.openai.com/v1/engines/davinci/completions';
-    const apiKey = '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';
+    const apiKey = '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';
 
     function sendMessage() {
         const messageInput = document.getElementById('userInput');
