@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const initialMessage = "초기 메뉴 메시지입니다.";
     document.getElementById('menuContent').textContent = initialMessage;
 
-    const endpointURL = 'https://api.openai.com/v1/engines/davinci/completions';
-    const apiKey = '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';
+    const endpointURL = 'https://api.matgim.ai/54edkvw2hn/api-keyword';
+    const apiKey = '310f9499-27d8-44c4-a28d-db04511a6950';
 
     function sendMessage() {
         const messageInput = document.getElementById('userInput');
